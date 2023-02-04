@@ -18,6 +18,11 @@ Deeper neural networks are more difficult to train.
 ## Why ResNet
 ease the training of networks that are substantially(大幅) deeper than those used previously.
 
+- ResNet 改善深网络的退化问题。
+- ResNet 可以加快收敛。
+- ResNet 几乎不增加参数和计算量。
+
+
 ## Theory Straightforward
 每次学一点，别学歪了。
 
@@ -34,3 +39,11 @@ from
 
 
 ## Code Detail
+
+
+模型复杂度：FLOPs = (卷积核高×卷积核宽×输入通道数) × (输出高×输出宽×输出通道数)
+
+ResNet-18:
+
+ResNet-34:
+
